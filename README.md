@@ -18,17 +18,17 @@ eTalk dibuat untuk memberikan contoh aplikasi pengiriman pesan yang sederhana. A
 
 Berikut adalah beberapa tampilan visual dari aplikasi eTalk:
 
-![Main Screen](./Readme_Photos/main_screen.png)
+![Main Screen](https://github.com/user-attachments/assets/004ce76c-ccf4-4003-996b-ed82fd80e5ea)
 
 Tampilan utama aplikasi yang memungkinkan pengguna untuk memulai percakapan.
 
-![Chat Screen](./Readme_Photos/chat_screen.png)
+![Chat Screen](https://github.com/user-attachments/assets/5d11b189-3713-4e71-acb4-94412ff11054)
 
 Tampilan percakapan di aplikasi eTalk yang menampilkan pesan yang dikirim.
 
-![Contacts Screen](./Readme_Photos/add_contact.png)
+![Add Contact](https://github.com/user-attachments/assets/0ee34af7-6826-407f-a54e-af00178aac31)
 
-Tampilan daftar kontak yang memungkinkan pengguna untuk menambah, mengedit, atau menghapus kontak.
+Tampilan daftar kontak yang memungkinkan pengguna untuk menambah kontak.
 
 ## Teknologi yang Digunakan
 
