@@ -1,6 +1,6 @@
 # eTalk: Aplikasi Pengiriman Pesan Sederhana
 
-eTalk adalah aplikasi sederhana yang dibuat sebagai proyek tugas mata kuliah. Aplikasi ini memungkinkan pengguna untuk mengirim pesan satu arah. Tidak ada penerimaan pesan atau integrasi dengan layanan eksternal—semua fungsionalitasnya berjalan secara lokal menggunakan Android Studio.
+eTalk adalah aplikasi sederhana yang dibuat sebagai proyek tugas mata kuliah saya. Aplikasi ini memungkinkan pengguna untuk mengirim pesan satu arah. Tidak ada penerimaan pesan atau integrasi dengan layanan eksternal, semua fungsionalitasnya berjalan secara lokal menggunakan Android Studio.
 
 ## Fitur Utama
 
