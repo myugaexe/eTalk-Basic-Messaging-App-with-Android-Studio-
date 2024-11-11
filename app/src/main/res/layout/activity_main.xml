@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- eTalk -->
+    <LinearLayout
+        android:id="@+id/topSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="8dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="eTalk"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="8dp"
+            android:background="#FFFFFF"
+            android:contentDescription="Image"
+            android:src="@drawable/ic_logobiru" />
+    </LinearLayout>
+
+    <!-- Search Layout -->
+    <LinearLayout
+        android:id="@+id/EditTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topSection"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Input Search -->
+        <EditText
+            android:id="@+id/CariKontak"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:background="#E9E9E9"
+            android:gravity="center"
+            android:hint="Search"
+            android:padding="8dp" />
+
+        <!-- Icon Search -->
+        <ImageView
+            android:id="@+id/ImageButtonCariKontak"
+            android:layout_width="47dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:background="#E9E9E9"
+            android:contentDescription="Image"
+            android:src="@drawable/ic_search" />
+    </LinearLayout>
+
+    <!-- Daftar Kontak Layout -->
+    <LinearLayout
+        android:id="@+id/centerSection"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/EditTextLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/contactListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:dividerHeight="8dp" />
+    </LinearLayout>
+
+    <!-- Icon Tambah Kontak -->
+    <ImageView
+        android:id="@+id/TambahKontak"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/drawable_circle_background"
+        android:contentDescription="Floating Image"
+        android:src="@drawable/ic_plus" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white" /> <!-- Menentukan latar belakang putih (bisa diganti sesuai keinginan) -->
+    <stroke
+        android:color="#E9E9E9"
+        android:width="2dp" />
+    <corners android:radius="12dp" /> <!-- Membulatkan pojok -->
+</shape>
