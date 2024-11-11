@@ -42,4 +42,4 @@ Untuk menginstal aplikasi ini di perangkat Android Anda, ikuti langkah-langkah b
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/eTalk.git
+   git clone https://github.com/username/eTalk-Basic-Messanging-App-with-Android-Studio.git
